@@ -1,0 +1,10 @@
+{
+  "id": "tiekartat_slideshow",
+  "version": "0.0.1",
+  "vendor": "My Company",
+  "type": "web",
+  "main": "index.html",
+  "title": "Suomen Tiekartat Slideshow",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png"
+}
