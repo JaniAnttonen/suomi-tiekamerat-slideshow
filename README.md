@@ -1,4 +1,4 @@
-# Live Slideshow of Finland's Road Cameras
+# :finland: Live Slideshow of Finland's Road Cameras
 ![Screenshot](screenshot.png)
 
 This app crawls the available road/weather cameras in Finland and shows them as a slideshow.
