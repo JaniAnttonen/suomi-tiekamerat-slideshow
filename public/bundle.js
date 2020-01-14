@@ -379,7 +379,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (143:2) {#each image as image, index}
+    // (141:2) {#each image as image, index}
     function create_each_block(ctx) {
     	let img;
     	let img_src_value;
@@ -391,7 +391,7 @@ var app = (function () {
     			if (img.src !== (img_src_value = /*image*/ ctx[1].url)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = /*image*/ ctx[1].url);
     			attr_dev(img, "class", "roadImage svelte-5eqntw");
-    			add_location(img, file, 143, 4, 3527);
+    			add_location(img, file, 141, 4, 3455);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -414,7 +414,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(143:2) {#each image as image, index}",
+    		source: "(141:2) {#each image as image, index}",
     		ctx
     	});
 
@@ -455,13 +455,13 @@ var app = (function () {
     			span = element("span");
     			t3 = text(t3_value);
     			attr_dev(div0, "class", "slideShow svelte-5eqntw");
-    			add_location(div0, file, 141, 0, 3467);
+    			add_location(div0, file, 139, 0, 3395);
     			attr_dev(h1, "class", "svelte-5eqntw");
-    			add_location(h1, file, 147, 2, 3634);
+    			add_location(h1, file, 145, 2, 3562);
     			attr_dev(span, "class", "svelte-5eqntw");
-    			add_location(span, file, 148, 2, 3676);
+    			add_location(span, file, 146, 2, 3604);
     			attr_dev(div1, "class", "currentLocation svelte-5eqntw");
-    			add_location(div1, file, 146, 0, 3602);
+    			add_location(div1, file, 144, 0, 3530);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -586,7 +586,6 @@ var app = (function () {
     	onMount(async () => {
     		cameras = await fetchCameras();
     		await fetchStations();
-    		console.log(cameras);
 
     		for (let i = 0; i < imageBufferSize; i++) {
     			pushNewImageToBuffer(false);

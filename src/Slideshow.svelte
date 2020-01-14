@@ -62,7 +62,6 @@
   };
 
   const replaceImage = src => {
-    console.log("Image has to be replaced!");
     const index = imageBuffer.findIndex(src);
     const randInt = Math.floor(Math.random() * Math.floor(cameras.length));
     imageBuffer[index] = cameras[randInt];
@@ -79,7 +78,6 @@
   onMount(async () => {
     cameras = await fetchCameras();
     await fetchStations();
-    console.log(cameras);
     for (let i = 0; i < imageBufferSize; i++) {
       pushNewImageToBuffer(false);
     }
