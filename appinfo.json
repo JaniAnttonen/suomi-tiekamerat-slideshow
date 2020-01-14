@@ -1,10 +1,10 @@
 {
-  "id": "tiekartat_slideshow",
+  "id": "tiekamerat_slideshow",
   "version": "0.0.1",
-  "vendor": "My Company",
+  "vendor": "Jani Anttonen",
   "type": "web",
-  "main": "index.html",
-  "title": "Suomen Tiekartat Slideshow",
+  "main": "public/index.html",
+  "title": "Suomen Tiekamerat Slideshow",
   "icon": "icon.png",
   "largeIcon": "largeIcon.png"
 }
